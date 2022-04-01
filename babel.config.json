@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic",
+        "importSource": "react"
+      }
+    ],
+    [
+      "@babel/preset-env",
+      {
+        "corejs": "3.20",
+        "useBuiltIns": "entry"
+      }
+    ],
+    "@babel/preset-typescript"
+  ]
+}
