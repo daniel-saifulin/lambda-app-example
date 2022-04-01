@@ -1,0 +1,5 @@
+"use strict";(globalThis.webpackChunk=globalThis.webpackChunk||[]).push([[315],{8315:(e,t,s)=>{s.r(t);var n=s(1342),r=s(6914),a=s(8373),l=s(5296),d=s.n(l),h=s(3592);const i=d()(),o=({symbol:e})=>{const t=e||"BTCUSDT",[s,n]=(0,a.useState)(null);return(0,a.useEffect)((()=>{i.prices({symbol:t}).then((e=>{n(parseFloat(e[t]))}))})),(0,h.jsx)("p",{children:(0,h.jsxs)("span",{children:[" ",(0,h.jsxs)("code",{children:[t," - $",s]})," "]})})},c=r.createGlobalStyle`
+  * {
+    box-sizing: border-box;
+  }
+`;class b extends HTMLElement{shadow=this.attachShadow({mode:"open"});static get observedAttributes(){return["name"]}connectedCallback(){this.render()}attributeChangedCallback(){this.render()}render(){this.getAttribute("name"),n.render((0,h.jsx)(r.StyleSheetManager,{target:this.shadow,children:(0,h.jsxs)(h.Fragment,{children:[(0,h.jsx)(c,{}),(0,h.jsx)(o,{})]})}),this.shadow)}}window.customElements.define("fwd-hello-world-widget",b)}}]);
