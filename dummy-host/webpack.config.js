@@ -31,7 +31,7 @@ export default {
     new webpack.container.ModuleFederationPlugin({
       name: 'dummyHost',
       remotes: {
-        'hello-world-widget':
+        'crypto-widget':
           'helloWorldWidget@http://localhost:3301/remote.js',
       },
       shared: {
